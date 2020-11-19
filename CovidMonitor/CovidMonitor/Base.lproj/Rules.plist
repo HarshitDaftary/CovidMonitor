@@ -96,7 +96,7 @@
 		<key>min</key>
 		<integer>50</integer>
 		<key>max</key>
-		<integer>0</integer>
+		<integer>100</integer>
 		<key>colorName</key>
 		<string>zone_red</string>
 		<key>rules</key>
@@ -127,6 +127,40 @@
 				<string>alcohol_instruction</string>
 				<key>description</key>
 				<string>Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>zoneName</key>
+		<string>Dark Red</string>
+		<key>zoneId</key>
+		<string>zone.darkred</string>
+		<key>min</key>
+		<integer>100</integer>
+		<key>max</key>
+		<integer>0</integer>
+		<key>colorName</key>
+		<string>zone_darkred</string>
+		<key>rules</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>general_instruction</string>
+				<key>description</key>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>gathering_instruction</string>
+				<key>description</key>
+				<string>Veranstaltungen (z. B. Clubtreffen, Sportveranstaltungen, kulturelle Veranstaltungen usw.) dürfen 50 Personen nicht überschreiten</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>alcohol_instruction</string>
+				<key>description</key>
+				<string>Schließzeit für Lebensmittel- / Gastronomie-Verkaufsstellen, Verbot des Alkoholverkaufs und des Alkoholkonsums in
+bestimmte öffentliche Plätze ab 21:00 Uhr</string>
 			</dict>
 		</array>
 	</dict>
