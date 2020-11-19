@@ -66,6 +66,7 @@
 		EEF0CCA525666D9C00C54E74 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EEF0CCA825666EEF00C54E74 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		EEF0CCAB2566720100C54E74 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EEF0CCC52566A9EB00C54E74 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Rules.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +292,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EE9E5E4C2565971200A4F8E6 /* Base */,
+				EEF0CCC52566A9EB00C54E74 /* de */,
 			);
 			name = Rules.plist;
 			sourceTree = "<group>";

@@ -17,7 +17,7 @@
 		<array>
 			<dict>
 				<key>image</key>
-				<string>Always Important: Keep your distance, wear a mask, wash your hands, air rooms regularly</string>
+				<string>general_instruction</string>
 				<key>description</key>
 				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
 			</dict>
@@ -25,22 +25,24 @@
 				<key>image</key>
 				<string>distancing_instruction</string>
 				<key>description</key>
-				<string>Limitations of face-to-face contact in public spaces</string>
+				<string>Einschränkungen des persönlichen Kontakts im öffentlichen Raum
+</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>gathering_instruction</string>
 				<key>description</key>
-				<string>Private events ( i.e. weddings etc. ) with a maximum of 100 participants in closed spaces
-and a maximum of 200 participants in the open</string>
+				<string>Private Veranstaltungen (d. H. Hochzeiten usw.) mit maximal 100 Teilnehmern in geschlossenen Räumen
+                    und maximal 200 Teilnehmer im Freien
+</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>wearing_mask_instruction</string>
 				<key>description</key>
-				<string>Wearing a mask is mandatory when ( including, but not limited to ) using public transportation,
-going shopping, eating and drinking in restaurants, bars, etc. and in case minimum distance (1.5m )
-cannot be kept</string>
+				<string>Das Tragen einer Maske ist obligatorisch, wenn (einschließlich, aber nicht beschränkt auf) die Nutzung öffentlicher Verkehrsmittel.
+                    Einkaufen, Essen und Trinken in Restaurants, Bars usw. und bei Mindestentfernung (1,5 m)
+                    kann nicht gehalten werden</string>
 			</dict>
 		</array>
 	</dict>
@@ -61,26 +63,28 @@ cannot be kept</string>
 				<key>image</key>
 				<string>general_instruction</string>
 				<key>description</key>
-				<string>Always Important: Keep your distance, wear a mask, wash your hands, air rooms regularly</string>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>gathering_instruction</string>
 				<key>description</key>
-				<string>Private parties and contacts: no more than two households or ten people</string>
+				<string>Private Feiern und Kontakte: nicht mehr als zwei Haushalte oder zehn Personen</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>wearing_mask_instruction</string>
 				<key>description</key>
-				<string>Wearing a mask is mandatory in heavily frequented spaces, in pedestrian zones, in public buildings,
-in secondary schools during class, in universities, for attendees of ( sports ) events, etc.</string>
+				<string>Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen und in öffentlichen Gebäuden obligatorisch.
+                    in weiterführenden Schulen während des Unterrichts, an Universitäten, für Teilnehmer von (Sport-) Veranstaltungen usw.
+</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>alcohol_instruction</string>
 				<key>description</key>
-				<string>Curfew and ban on selling as well as consuming alcohol in public spaces from 23:00 on</string>
+				<string>Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 23:00 Uhr.
+</string>
 			</dict>
 		</array>
 	</dict>
@@ -101,28 +105,28 @@ in secondary schools during class, in universities, for attendees of ( sports ) 
 				<key>image</key>
 				<string>general_instruction</string>
 				<key>description</key>
-				<string>Always Important: Keep your distance, wear a mask, wash your hands, air rooms regularly</string>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>gathering_instruction</string>
 				<key>description</key>
-				<string>Private parties and contacts: no more than 5 households or five people</string>
+				<string>Private Feiern und Kontakte: nicht mehr als 5 Haushalte oder fünf Personen
+</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>wearing_mask_instruction</string>
 				<key>description</key>
-				<string>Wearing a mask is mandatory in heavily frequented spaces, in pedestrian zones, in public buildings,
-for all grades during class, in universities, for attendees of ( sports ) events, etc.</string>
+				<string>Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen und in öffentlichen Gebäuden obligatorisch.
+                    für alle Klassenstufen, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw.
+</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>alcohol_instruction</string>
 				<key>description</key>
-				<string>Curfew and ban on selling as well as consuming alcohol in public spaces from 22:00 on
-The ADDITONAL Signal for Bavaria
-</string>
+				<string>Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr.</string>
 			</dict>
 		</array>
 	</dict>
@@ -143,20 +147,20 @@ The ADDITONAL Signal for Bavaria
 				<key>image</key>
 				<string>general_instruction</string>
 				<key>description</key>
-				<string>Always Important: Keep your distance, wear a mask, wash your hands, air rooms regularly</string>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>gathering_instruction</string>
 				<key>description</key>
-				<string>Events ( e.g. club meetings, sporting events, cultural events, etc. ) must not exceed 50 persons</string>
+				<string>Veranstaltungen (z. B. Clubtreffen, Sportveranstaltungen, kulturelle Veranstaltungen usw.) dürfen 50 Personen nicht überschreiten</string>
 			</dict>
 			<dict>
 				<key>image</key>
 				<string>alcohol_instruction</string>
 				<key>description</key>
-				<string>Closing time for food / gastronomy outlets, ban on alcohol sales and alcohol consumption sales in
-specific public places form 21:00</string>
+				<string>Schließzeit für Lebensmittel- / Gastronomie-Verkaufsstellen, Verbot des Alkoholverkaufs und des Alkoholkonsums in
+bestimmte öffentliche Plätze ab 21:00 Uhr</string>
 			</dict>
 		</array>
 	</dict>

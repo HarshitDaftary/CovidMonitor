@@ -3,6 +3,7 @@
 "Green" = "Grün";
 "Red" = "Rot";
 "Yellow" = "Gelb";
+"Dark Red" = "Dunkelrot";
 
 // Map Screen
 "Status Updated !!!" = "Status aktualisiert !!!";
@@ -16,31 +17,3 @@
 
 // Rules Screen
 "Rules for Status " = "Regeln für den Status ";
-"Always Important: Keep your distance, wear a mask, wash your hands, air rooms regularly" = "Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig";
-"Limitations of face-to-face contact in public spaces" = "Einschränkungen des persönlichen Kontakts im öffentlichen Raum";
-"Private events ( i.e. weddings etc. ) with a maximum of 100 participants in closed spaces
-and a maximum of 200 participants in the open" = "Private Veranstaltungen (d. H. Hochzeiten usw.) mit maximal 100 Teilnehmern in geschlossenen Räumen
-und maximal 200 Teilnehmer im Freien";
-"Wearing a mask is mandatory when ( including, but not limited to ) using public transportation,
-going shopping, eating and drinking in restaurants, bars, etc. and in case minimum distance (1.5m )
-cannot be kept" = "Das Tragen einer Maske ist obligatorisch, wenn (einschließlich, aber nicht beschränkt auf) die Nutzung öffentlicher Verkehrsmittel.
-Einkaufen, Essen und Trinken in Restaurants, Bars usw. und bei Mindestentfernung (1,5 m)
-kann nicht gehalten werden";
-"Private parties and contacts: no more than two households or ten people" = "Private Feiern und Kontakte: nicht mehr als zwei Haushalte oder zehn Personen";
-"Wearing a mask is mandatory in heavily frequented spaces, in pedestrian zones, in public buildings,
-in secondary schools during class, in universities, for attendees of ( sports ) events, etc.
-" = "Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen und in öffentlichen Gebäuden obligatorisch.
-in weiterführenden Schulen während des Unterrichts, an Universitäten, für Teilnehmer von (Sport-) Veranstaltungen usw.";
-
-"Curfew and ban on selling as well as consuming alcohol in public spaces from 23:00 on" = "Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 23:00 Uhr.";
-
-"Private parties and contacts: no more than 5 households or five people" = "Private Feiern und Kontakte: nicht mehr als 5 Haushalte oder fünf Personen";
-"Wearing a mask is mandatory in heavily frequented spaces, in pedestrian zones, in public buildings,
-for all grades during class, in universities, for attendees of ( sports ) events, etc." = "Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen und in öffentlichen Gebäuden obligatorisch.
-für alle Klassenstufen, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw.";
-"Curfew and ban on selling as well as consuming alcohol in public spaces from 22:00 on." = "Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr.";
-
-"Closing time for food / gastronomy outlets, ban on alcohol sales and alcohol consumption sales in
-specific public places form 21:00" = "Schließzeit für Lebensmittel- / Gastronomie-Verkaufsstellen, Verbot des Alkoholverkaufs und des Alkoholkonsums in bestimmte öffentliche Plätze ab 21:00 Uhr";
-
-"Events ( e.g. club meetings, sporting events, cultural events, etc. ) must not exceed 50 persons" = "Veranstaltungen (z. B. Clubtreffen, Sportveranstaltungen, kulturelle Veranstaltungen usw.) dürfen 50 Personen nicht überschreiten";
