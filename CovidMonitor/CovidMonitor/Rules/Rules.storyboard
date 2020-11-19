@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tzc-M5-xHs">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rules Controller-->
+        <scene sceneID="HWv-DI-1cB">
+            <objects>
+                <viewController id="tzc-M5-xHs" customClass="RulesController" customModule="CovidMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iqx-ds-w47">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-tR-vpq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rules of Green Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSd-MO-dzg">
+                                        <rect key="frame" x="7" y="15" width="400" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="kMC-El-AcI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstItem="vSd-MO-dzg" firstAttribute="top" secondItem="Bg5-tR-vpq" secondAttribute="top" constant="15" id="4Qh-Da-hnK"/>
+                                    <constraint firstAttribute="trailing" secondItem="vSd-MO-dzg" secondAttribute="trailing" constant="7" id="KPX-PN-fqP"/>
+                                    <constraint firstAttribute="height" constant="44" id="PLp-iy-vHS"/>
+                                    <constraint firstItem="vSd-MO-dzg" firstAttribute="leading" secondItem="Bg5-tR-vpq" secondAttribute="leading" constant="7" id="Xwe-zd-NzX"/>
+                                </constraints>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMH-EV-gpy">
+                                <rect key="frame" x="0.0" y="88" width="414" height="649"/>
+                                <connections>
+                                    <segue destination="PWZ-LE-V4f" kind="embed" identifier="embedRulesPageController" id="pdx-Eo-zoC"/>
+                                </connections>
+                            </containerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front_boy" translatesAutoresizingMaskIntoConstraints="NO" id="xJ5-Rz-WOK">
+                                <rect key="frame" x="351.5" y="747" width="62.5" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xJ5-Rz-WOK" secondAttribute="height" multiplier="130:193" id="gFE-bR-0CO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uor-WF-Y4k"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xJ5-Rz-WOK" firstAttribute="top" secondItem="eMH-EV-gpy" secondAttribute="bottom" constant="10" id="A5W-R4-Yqh"/>
+                            <constraint firstItem="eMH-EV-gpy" firstAttribute="top" secondItem="Bg5-tR-vpq" secondAttribute="bottom" id="Eeb-dc-JTZ"/>
+                            <constraint firstItem="Bg5-tR-vpq" firstAttribute="top" secondItem="uor-WF-Y4k" secondAttribute="top" id="KqM-2i-Bxw"/>
+                            <constraint firstItem="uor-WF-Y4k" firstAttribute="trailing" secondItem="eMH-EV-gpy" secondAttribute="trailing" id="OUp-SG-w2c"/>
+                            <constraint firstItem="eMH-EV-gpy" firstAttribute="leading" secondItem="uor-WF-Y4k" secondAttribute="leading" id="cXA-mE-oLx"/>
+                            <constraint firstItem="uor-WF-Y4k" firstAttribute="trailing" secondItem="Bg5-tR-vpq" secondAttribute="trailing" id="d2u-5V-f7b"/>
+                            <constraint firstItem="Bg5-tR-vpq" firstAttribute="leading" secondItem="uor-WF-Y4k" secondAttribute="leading" id="gza-3g-SlW"/>
+                            <constraint firstItem="xJ5-Rz-WOK" firstAttribute="trailing" secondItem="uor-WF-Y4k" secondAttribute="trailing" id="heF-OM-hY7"/>
+                            <constraint firstItem="uor-WF-Y4k" firstAttribute="bottom" secondItem="xJ5-Rz-WOK" secondAttribute="bottom" constant="22" id="vym-wC-dHG"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="eMH-EV-gpy" id="0ua-vJ-U0u"/>
+                        <outlet property="lblTitle" destination="vSd-MO-dzg" id="yJV-Rv-aH0"/>
+                        <outlet property="topView" destination="Bg5-tR-vpq" id="6tF-of-QRl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ykj-nT-fle" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136" y="-79"/>
+        </scene>
+        <!--Rules Page Controller-->
+        <scene sceneID="k6P-Y3-4gq">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="PWZ-LE-V4f" customClass="RulesPageController" customModule="CovidMonitor" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OkV-FC-SJI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="699" y="-79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="front_boy" width="59" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

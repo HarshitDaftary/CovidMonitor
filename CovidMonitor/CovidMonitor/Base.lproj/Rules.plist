@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>zoneName</key>
+		<string>Green</string>
+		<key>zoneId</key>
+		<string>zone.green</string>
+		<key>min</key>
+		<integer>0</integer>
+		<key>max</key>
+		<integer>35</integer>
+		<key>colorName</key>
+		<string>zone_green</string>
+		<key>rules</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>general_instruction</string>
+				<key>description</key>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>distancing_instruction</string>
+				<key>description</key>
+				<string>Einschränkungen des persönlichen Kontakts im öffentlichen Raum
+</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>gathering_instruction</string>
+				<key>description</key>
+				<string>Private Veranstaltungen (d. H. Hochzeiten usw.) mit maximal 100 Teilnehmern in geschlossenen Räumen
+                    und maximal 200 Teilnehmer im Freien
+</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>wearing_mask_instruction</string>
+				<key>description</key>
+				<string>Das Tragen einer Maske ist obligatorisch, wenn (einschließlich, aber nicht beschränkt auf) die Nutzung öffentlicher Verkehrsmittel.
+                    Einkaufen, Essen und Trinken in Restaurants, Bars usw. und bei Mindestentfernung (1,5 m)
+                    kann nicht gehalten werden</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>zoneName</key>
+		<string>Yellow</string>
+		<key>zoneId</key>
+		<string>zone.yellow</string>
+		<key>min</key>
+		<integer>35</integer>
+		<key>max</key>
+		<integer>50</integer>
+		<key>colorName</key>
+		<string>zone_yellow</string>
+		<key>rules</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>general_instruction</string>
+				<key>description</key>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>gathering_instruction</string>
+				<key>description</key>
+				<string>Private Feiern und Kontakte: nicht mehr als zwei Haushalte oder zehn Personen</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>wearing_mask_instruction</string>
+				<key>description</key>
+				<string>Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen und in öffentlichen Gebäuden obligatorisch.
+                    in weiterführenden Schulen während des Unterrichts, an Universitäten, für Teilnehmer von (Sport-) Veranstaltungen usw.
+</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>alcohol_instruction</string>
+				<key>description</key>
+				<string>Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 23:00 Uhr.
+</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>zoneName</key>
+		<string>Red</string>
+		<key>zoneId</key>
+		<string>zone.red</string>
+		<key>min</key>
+		<integer>50</integer>
+		<key>max</key>
+		<integer>0</integer>
+		<key>colorName</key>
+		<string>zone_red</string>
+		<key>rules</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>general_instruction</string>
+				<key>description</key>
+				<string>Immer wichtig: Halten Sie Abstand, tragen Sie eine Maske, waschen Sie Ihre Hände und lüften Sie regelmäßig</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>gathering_instruction</string>
+				<key>description</key>
+				<string>Private Feiern und Kontakte: nicht mehr als 5 Haushalte oder fünf Personen
+</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>wearing_mask_instruction</string>
+				<key>description</key>
+				<string>Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen und in öffentlichen Gebäuden obligatorisch.
+                    für alle Klassenstufen, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw.
+</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>alcohol_instruction</string>
+				<key>description</key>
+				<string>Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr.</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
