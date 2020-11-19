@@ -12,17 +12,16 @@ extension UIViewController {
     
     func showLoading() {
         
-        if let _ = view.viewWithTag(100) as? UIImageView {
+        if let _ = view.viewWithTag(loadingViewTag) as? UIImageView {
             return
         }
         
         let loadingView = UIImageView(frame: self.view.bounds)
         loadingView.image = #imageLiteral(resourceName: "green_signal")
         loadingView.frame = CGRect(origin: CGPoint(x: self.view.bounds.width, y: self.view.center.y/2), size: loadingView.image!.size)
-        
         loadingView.animationImages = [#imageLiteral(resourceName: "green_signal"),#imageLiteral(resourceName: "yellow_signal"),#imageLiteral(resourceName: "red_signal")]
         loadingView.animationDuration = 0.8
-        loadingView.tag = 100
+        loadingView.tag = loadingViewTag
         loadingView.startAnimating()
         view.addSubview(loadingView)
         
@@ -33,7 +32,7 @@ extension UIViewController {
     }
     
     func hideLoading(){
-        guard let loadingView = view.viewWithTag(100) as? UIImageView else {
+        guard let loadingView = view.viewWithTag(loadingViewTag) as? UIImageView else {
           return
         }
         

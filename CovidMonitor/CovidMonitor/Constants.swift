@@ -19,3 +19,6 @@ let timerInterval = 600.0
 
 // Rules Screen
 let titleRules = "Rules for Status "
+
+// Loading View
+let loadingViewTag = 100
