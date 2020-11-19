@@ -48,8 +48,8 @@ struct MapRegion {
 
     var ring:MKPolygon!
     var objId:Int = 0
-    var location_name:String = ""
-    var cases:Double = 0.0
+    var locationName:String = ""
+    var cases:Int = 0
     
     init() {}
     
@@ -72,8 +72,8 @@ struct ZoneResponse: Decodable {
             location.objId = feature.attributes.OBJECTID
             location.ring = feature.geometry.ring
             location.ring.title = "\(feature.attributes.OBJECTID)"
-            location.location_name = feature.attributes.GEN
-            location.cases = feature.attributes.cases7_per_100k
+            location.locationName = feature.attributes.GEN
+            location.cases = Int(feature.attributes.cases7_per_100k)
             locations.append(location)
         }
     }

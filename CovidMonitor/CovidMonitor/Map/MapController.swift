@@ -15,7 +15,7 @@ extension MapController: MKMapViewDelegate {
         var regionColor:UIColor = .red
         for location in locations {
             if location.ring.title == regionTitle {
-                let colorName = ruleRepository.getRuleColor(caseCount: Int(location.cases))
+                let colorName = ruleRepository.getRuleColor(caseCount: location.cases)
                 regionColor = UIColor(named: colorName!)!
             }
         }
@@ -57,7 +57,7 @@ extension MapController: CLLocationManagerDelegate {
             self.present(alert, animated: true)
             return
         }
-        let newStatus = ruleRepository.getZoneName(caseCount: Int(detectedZone.cases))
+        let newStatus = ruleRepository.getZoneName(caseCount: detectedZone.cases)
         
         if newStatus != currentZoneStatus && currentZoneStatus != "" {
             currentZoneStatus =  newStatus!
@@ -73,7 +73,7 @@ extension MapController: CLLocationManagerDelegate {
         
         if currentZone == nil || currentZone.objId == detectedZone.objId {
             currentZone = detectedZone
-            lblLocation.text = detectedZone.location_name
+            lblLocation.text = detectedZone.locationName
             self.lblZone.text = newStatus?.localized
         }
         
@@ -89,12 +89,12 @@ class MapController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var lblZone: UILabel!
+    @IBOutlet weak var lblLocation: UILabel!
+    
     let ruleRepository = RuleRepository()
     var currentZone:MapRegion!
     var currentZoneStatus:String = ""
     var refreshTimer = Timer()
-    
-    @IBOutlet weak var lblLocation: UILabel!
     var searchController:SearchController!
     var locations:[MapRegion]!
     
@@ -185,8 +185,9 @@ class MapController: UIViewController {
     
     func focusOnLocation(location:MapRegion) {
         mapView.setVisibleMapRect(location.ring.boundingMapRect, edgePadding: UIEdgeInsets(top: 100.0, left: 100.0, bottom: 100.0, right: 100.0), animated: true)
-        lblLocation.text = location.location_name
-        lblZone.text = ruleRepository.getZoneName(caseCount: Int(location.cases)).localized
+        lblLocation.text = location.locationName
+        lblZone.text = ruleRepository.getZoneName(caseCount: location.cases).localized
+        currentZone = location
     }
     
     func getUserLocation(){
@@ -200,7 +201,7 @@ class MapController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showRules" {
             let destination = segue.destination as! RulesController
-            destination.caseCount = Int(currentZone.cases)
+            destination.caseCount = currentZone.cases
         }
     }
 }

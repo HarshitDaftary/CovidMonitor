@@ -160,7 +160,7 @@ extension SearchController: UITableViewDataSource, UITableViewDelegate {
             else { return UITableViewCell() }
         
         let location = locations[indexPath.row]
-        cell.configure(location: location.location_name, count: "\(Int(location.cases))")
+        cell.configure(location: location.locationName, count: "\(Int(location.cases))")
         let colorName = ruleRepository.getRuleColor(caseCount: Int(location.cases))
         cell.lblCaseCount.backgroundColor = UIColor(named: colorName!)?.withAlphaComponent(0.4)
         return cell

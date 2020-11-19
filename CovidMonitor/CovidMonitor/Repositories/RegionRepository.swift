@@ -14,9 +14,9 @@ class RegionRepository {
     
     func getAllLocations(completion: @escaping(Any,Bool) -> Void) {
         
-        let req_url = baseUrl + "query?where=BL_ID%20%3D%20%279%27&outFields=OBJECTID,county,cases7_per_100k,GEN,last_update,BL_ID,BL,BEZ&outSR=4326&f=json"
+        let reqUrl = baseUrl + "query?where=BL_ID%20%3D%20%279%27&outFields=OBJECTID,county,cases7_per_100k,GEN,last_update,BL_ID,BL,BEZ&outSR=4326&f=json"
         
-        let request = AF.request(req_url)
+        let request = AF.request(reqUrl)
         
         request.responseJSON { response in
             
