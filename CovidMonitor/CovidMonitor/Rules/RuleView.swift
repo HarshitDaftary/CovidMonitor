@@ -32,8 +32,6 @@ class RuleView: UIView {
         self.init()
         self.imgRule.image = UIImage(named: image!)
         self.txtvDescription.text = description!
-//        lblTitle.text = titleText
-//        vwBackground.backgroundColor = background
     }
     
     fileprivate func initWithNib() {
